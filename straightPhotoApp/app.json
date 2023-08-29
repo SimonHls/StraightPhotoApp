@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "straightPhotoApp",
+    "slug": "straightPhotoApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      [
+        "expo-sensors",
+        {
+          "motionPermission": "Allow $(PRODUCT_NAME) to access your device motion."
+        }
+      ]
+    ]
+  }
+}
